@@ -9,7 +9,7 @@ post_json:
 runs-on: ubuntu-latest
 steps:
 - name: Checkout Repository
-uses: actions/checkout@v3
+  uses: actions/checkout@v3
 - name: Send JSON Data to First URL
 run: |
 curl -X POST "https://:Y4hqGQgTRwme_Jsyg0ml6g@eu.tandem.autodesk.com/api/v1/timeseries/models/urn:adsk.dtm:vx3H7ELYRACffZK7VC39wA/streams/AQAAAEYoJ3nUbUXrpxNC4Dv_23wAAAAA" \
